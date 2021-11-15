@@ -1,44 +1,21 @@
-/* styles go here */
 * {
   box-sizing: border-box;
+  line-height: normal;
 }
 
-.form {
-  position: relative;
-  border: 2px solid grey;
-  padding: 10px;
+.field {
+  margin-bottom: 20px;
 }
 
-.personal__item {
-  margin-top: 10px;
+.input-block {
+  margin-bottom: 10px;
 }
 
-.personal__info {
-  padding: 0 2px;
-  position: absolute;
-  top: -12px;
-  background-color: white;
+#cars {
+  height: 70px;
 }
 
-.age {
-  width: 70px;
-}
-
-.date {
-  width: 135px;
-}
-
-.mt20 {
-  margin-top: 20px;
-}
-
-.mt10 {
-  margin-top: 10px;
-}
-
-.title {
-  padding: 0 2px;
-  position: absolute;
-  top: -12px;
-  background-color: white;
+.size {
+  height: 27px;
+  width: 50px;
 }
