@@ -14,7 +14,7 @@
     <form
       action="https://mate-academy-form-lesson.herokuapp.com/create-application"
       method="post"
-      onsubmit="onSubmi()"
+      onsubmit="onSubmit()"
     >
       <fieldset class="field">
         <legend>Personal information</legend>
@@ -24,7 +24,8 @@
           <input
             type="text"
             name="surname"
-            id="surname">
+            id="surname"
+          >
         </div>
 
         <div class="input-block">
@@ -32,7 +33,8 @@
           <input
             type="text"
             name="name"
-            id="name">
+            id="name"
+          >
         </div>
         <div class="input-block">
           <label for="years">How old are You?</label>
@@ -42,7 +44,8 @@
             id="years"
             value="12"
             max="100"
-            min="12">
+            min="12"
+          >
         </div>
 
         <div class="input-block">
@@ -50,14 +53,16 @@
           <input
             type="date"
             name="birth"
-            id="birth">
+            id="birth"
+          >
         </div>
         <div>
           <label for="term">I accept the term of the agreement</label>
           <input
             type="checkbox"
             name="term"
-            id="term">
+            id="term"
+          >
         </div>
       </fieldset>
 
@@ -70,7 +75,8 @@
             name="email"
             id="email"
             placeholder="email@example.com"
-            required="">
+            required
+          >
         </div>
         <div>
           <label for="pass">Password:</label>
@@ -79,7 +85,8 @@
             name="password"
             minlength="5"
             maxlength="30"
-            id="pass">
+            id="pass"
+          >
         </div>
       </fieldset>
 
@@ -95,7 +102,8 @@
           <input
             type="radio"
             name="cats"
-            id="dislike">
+            id="dislike"
+          >
           <label for="dislike">No</label>
         </div>
 
@@ -106,7 +114,8 @@
             name="color"
             id="color"
             class="size"
-            value="black">
+            value="black"
+          >
         </div>
 
         <div class="input-block">
@@ -116,15 +125,16 @@
             name="go-sleep"
             id="go-sleep"
             step="1"
-            >
+          >
         </div>
 
         <div class="input-block">
           <label for="cars">What are your favorite brand of cars?</label>
           <select
-          name="cars"
-          id="cars"
-          multiple="">
+            name="cars"
+            id="cars"
+            multiple
+          >
             <option value="bmw">BMW</option>
             <option value="audi">Audi</option>
             <option value="lada" selected="">Lada</option>
@@ -139,7 +149,8 @@
             id="rating"
             min="0"
             max="100"
-            value="0">
+            value="0"
+          >
         </div>
       </fieldset>
 
@@ -153,7 +164,8 @@
             cols="20"
             rows="2"
             minlength="10"
-            maxlength="200">
+            maxlength="200"
+          >
           </textarea>
         </div>
 
