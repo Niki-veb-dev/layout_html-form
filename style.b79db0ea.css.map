@@ -1,0 +1,1 @@
+{"version":3,"sources":["style.css"],"names":[],"mappings":"AAAA,EACE,qBAAsB,CACtB,kBACF,CAEA,OACE,kBACF,CAEA,aACE,kBACF","file":"style.b79db0ea.css","sourceRoot":"..\\src","sourcesContent":["* {\n  box-sizing: border-box;\n  line-height: normal;\n}\n\n.field {\n  margin-bottom: 20px;\n}\n\n.input-block {\n  margin-bottom: 10px;\n}\n"]}
